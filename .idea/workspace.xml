@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f03ac7cf-e3c8-4c3a-88c4-9f0affc09411" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../java-learner/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/LRU-algorithm/LRU-algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-api/src/test/java/com/student/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-api/target/classes/com/student/HelloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-api/target/test-classes/com/student/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-client/dubbo-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-client/src/main/java/com/student/SpringApplicationClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-client/src/main/resources/dubbo-client.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-client/src/test/java/com/student/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-client/target/classes/com/student/SpringApplicationClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-client/target/classes/dubbo-client.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-client/target/test-classes/com/student/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-server/src/main/java/com/student/HelloWorldImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-server/src/main/java/com/student/SpringApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-server/src/main/resources/dubbo-server.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-server/src/test/java/com/student/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-server/target/classes/com/student/HelloWorldImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-server/target/classes/com/student/SpringApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-server/target/classes/dubbo-server.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-server/target/test-classes/com/student/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/target/classes/com/student/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/target/test-classes/com/student/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/java-learner.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-learner/zookeeper/zookeeper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/leaf-dubbo-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/lib/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/lib/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/lib/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/lib/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/lib/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/src/main/java/com/example/StringApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/src/main/resources/dubbo-client.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/target/classes/META-INF/leaf-dubbo-client.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/target/classes/com/example/StringApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/target/classes/dubbo-client.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leaf-dubbo-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/src/main/java/com/example/GetIdServiceRPC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/src/main/java/com/example/SegmentIDGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/src/main/java/com/example/SnowflakeIDGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/src/main/java/com/example/common/CheckVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/src/main/java/com/example/common/PropertyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/src/main/java/com/example/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/src/main/java/com/example/common/SegmentZeroIDGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/src/main/java/com/example/common/SnowflakeZeroIDGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/src/main/java/com/example/common/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/src/main/java/com/example/common/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/src/test/java/com/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/target/classes/com/example/GetIdServiceRPC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/target/classes/com/example/common/SegmentZeroIDGen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/target/classes/com/example/common/SnowflakeZeroIDGen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/src/main/java/com/example/segment/SegmentIDGenImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/src/main/java/com/example/segment/dao/IDAllocDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/src/main/java/com/example/segment/dao/IDAllocMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/src/main/java/com/example/segment/dao/impl/IDAllocDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/src/main/java/com/example/segment/model/LeafAlloc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/src/main/java/com/example/segment/model/Segment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/src/main/java/com/example/segment/model/SegmentBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/src/main/java/com/example/snowflake/SnowflakeIDGenImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/src/main/java/com/example/snowflake/SnowflakeZookeeperHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/src/main/java/com/example/snowflake/exception/CheckLastTimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/src/main/java/com/example/snowflake/exception/CheckOtherNodeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/src/main/java/com/example/snowflake/exception/ClockGoBackException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/src/test/java/com/example/segment/IDGenServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/src/test/java/com/example/segment/SpringIDGenServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/src/test/java/com/example/snowflake/SnowflakeIDGenImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/src/test/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/src/test/resources/leaf.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/src/test/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/segment/SegmentIDGenImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/segment/SegmentIDGenImpl$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/segment/SegmentIDGenImpl$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/segment/SegmentIDGenImpl$UpdateThreadFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/segment/SegmentIDGenImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/segment/dao/IDAllocDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/segment/dao/IDAllocMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/segment/dao/impl/IDAllocDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/segment/model/LeafAlloc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/segment/model/Segment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/segment/model/SegmentBuffer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/snowflake/SnowflakeIDGenImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/snowflake/SnowflakeZookeeperHolder$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/snowflake/SnowflakeZookeeperHolder$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/snowflake/SnowflakeZookeeperHolder$Endpoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/snowflake/SnowflakeZookeeperHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/snowflake/exception/CheckLastTimeException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/snowflake/exception/CheckOtherNodeException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-core/target/classes/com/example/snowflake/exception/ClockGoBackException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-dubbo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/leaf-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/exception/InitException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/exception/LeafServerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/exception/NoKeyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/service/GetIdServiceRPCImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/service/SegmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/service/SnowflakeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/src/main/resources/dubbo-server.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/src/main/resources/leaf.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/exception/InitException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/exception/LeafServerException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/exception/NoKeyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/service/GetIdServiceRPCImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/service/SegmentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/service/SnowflakeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/dubbo-server.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/leaf.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-demo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-demo/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-demo/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-demo/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-demo/dubbo-api/dubbo-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-learner/.idea/java-learner.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-demo/dubbo-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-demo/dubbo-api/src/main/java/org/example/dubbo/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-learner/dubbo-demo/dubbo-api/src/main/java/com/student/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-demo/dubbo-api/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leaf-dubbo-client/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-demo/dubbo-api/target/classes/org/example/dubbo/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-demo/dubbo-api/target/dubbo-api-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-demo/dubbo-api/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-demo/dubbo-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-demo/dubbo-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-demo/dubbo-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-demo/dubbo-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-demo/dubbo-api/target/surefire-reports/TEST-org.example.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-demo/dubbo-api/target/surefire-reports/org.example.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-demo/dubbo-api/target/test-classes/org/example/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/leaf-server/target/test-classes/org/example/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dubbo-demo/dubbo-client/src/main/resources/dubbo-client.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dubbo-demo/dubbo-client/src/main/resources/dubbo-client.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VhBOO0xBzZTTnZwIutAOq1G8Wb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/leaf-server/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.35632184" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leaf-server/src/main/resources" />
+      <recent name="$PROJECT_DIR$/leaf-server/src/main/resources/META-INF.spring" />
+      <recent name="$PROJECT_DIR$/leaf-server/src/main" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/leaf-core" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example" />
+      <recent name="com.example.common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leaf-server/src/main/resources" />
+      <recent name="$PROJECT_DIR$/leaf-server/src/main/java/resources" />
+      <recent name="$PROJECT_DIR$/leaf-server/src/main/java" />
+      <recent name="$PROJECT_DIR$/leaf-server/src/main/java/com/example" />
+      <recent name="$PROJECT_DIR$/leaf-server/src/main/java/com/example/service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Main" />
+      <module name="leaf-server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnowflakeIDGenImplTest.testGetId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leaf-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.snowflake.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.snowflake" />
+      <option name="MAIN_CLASS_NAME" value="com.example.snowflake.SnowflakeIDGenImplTest" />
+      <option name="METHOD_NAME" value="testGetId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SnowflakeIDGenImplTest.testGetId" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f03ac7cf-e3c8-4c3a-88c4-9f0affc09411" name="Default Changelist" comment="" />
+      <created>1577695413995</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577695413995</updated>
+      <workItem from="1577695416549" duration="1728000" />
+      <workItem from="1577697189095" duration="2436000" />
+      <workItem from="1577699635204" duration="22000" />
+      <workItem from="1577699699063" duration="69000" />
+      <workItem from="1577699787373" duration="351000" />
+      <workItem from="1577700145230" duration="1153000" />
+      <workItem from="1577702736425" duration="4963000" />
+      <workItem from="1577765091719" duration="613000" />
+      <workItem from="1577770687473" duration="2503000" />
+      <workItem from="1577926126424" duration="9964000" />
+      <workItem from="1577944510340" duration="4149000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="200" width="800" height="677" key="#Project_Structure" timestamp="1577946649117">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="200" width="800" height="677" key="#Project_Structure/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577946649117" />
+    <state x="636" y="336" width="637" height="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577926267353">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="636" y="336" width="637" height="406" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577926267353" />
+    <state x="768" y="246" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1577935268684">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="768" y="246" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577935268684" />
+    <state x="693" y="285" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577697923719">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="693" y="285" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577697923719" />
+    <state x="296" y="121" width="1317" height="835" key="CommitChangelistDialog2" timestamp="1577948754164">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="296" y="121" width="1317" height="835" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577948754164" />
+    <state x="738" y="245" width="744" height="484" key="FileChooserDialogImpl" timestamp="1577943974522">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="738" y="245" width="744" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577943974522" />
+    <state x="2658" y="224" width="504" height="656" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577695812347" />
+    <state width="1866" height="273" key="GridCell.Tab.0.bottom" timestamp="1577947827819">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1866" height="273" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577947827819" />
+    <state width="1866" height="273" key="GridCell.Tab.0.center" timestamp="1577947827818">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1866" height="273" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577947827818" />
+    <state width="1866" height="273" key="GridCell.Tab.0.left" timestamp="1577947827818">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1866" height="273" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577947827818" />
+    <state width="1866" height="273" key="GridCell.Tab.0.right" timestamp="1577947827818">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1866" height="273" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577947827818" />
+    <state width="1866" height="273" key="GridCell.Tab.1.bottom" timestamp="1577947819273">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1866" height="273" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577947819273" />
+    <state width="1866" height="273" key="GridCell.Tab.1.center" timestamp="1577947819273">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1866" height="273" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577947819273" />
+    <state width="1866" height="273" key="GridCell.Tab.1.left" timestamp="1577947819273">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1866" height="273" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577947819273" />
+    <state width="1866" height="273" key="GridCell.Tab.1.right" timestamp="1577947819273">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1866" height="273" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577947819273" />
+    <state x="493" y="197" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1577702762201">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="493" y="197" width="924" height="684" key="Maven.ArtifactSearchDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577702762201" />
+    <state x="2458" y="244" width="824" height="617" key="NewModule_or_Project.wizard" timestamp="1577695821814">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2458" y="244" width="824" height="617" key="NewModule_or_Project.wizard/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577695821814" />
+    <state x="443" y="154" width="1024" height="845" key="SettingsEditor" timestamp="1577943994165">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="443" y="154" width="1024" height="845" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577943994165" />
+    <state x="2363" y="130" width="1024" height="845" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577695829510" />
+    <state x="611" y="464" width="678" height="224" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1577943979630">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="611" y="464" width="678" height="224" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577943979630" />
+    <state x="237" y="266" width="1436" height="611" key="new project wizard" timestamp="1577934323249">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="237" y="266" width="1436" height="611" key="new project wizard/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577934323249" />
+    <state x="2157" y="245" width="1436" height="615" key="new project wizard/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577695804927" />
+    <state x="624" y="246" key="run.anything.popup" timestamp="1577941663037">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="624" y="246" key="run.anything.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577941663037" />
+    <state x="608" y="217" width="693" height="644" key="spring file set editor" timestamp="1577946646751">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="608" y="217" width="693" height="644" key="spring file set editor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577946646751" />
+  </component>
+</project>

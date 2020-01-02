@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.example.snowflake.SnowflakeIDGenImplTest" time="10.804" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/java/jdk1.8/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/ly/gitRepository/leaf-dubbo/leaf-core"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/ly/gitRepository/leaf-dubbo/leaf-core"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/java/jdk1.8/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="maven.ext.class.path" value="/home/ly/idea/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/home/ly/idea/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/home/ly/idea/plugins/maven/lib/maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.15.0-72-generic"/>
+    <property name="idea.version2019.3.1" value="true"/>
+    <property name="user.home" value="/home/ly"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ly"/>
+    <property name="java.class.path" value="/home/ly/idea/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/home/ly/idea/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/java/jdk1.8/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.3.1 -s /home/ly/apache-maven-3.6.3/conf/settings.xml install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="java.ext.dirs" value="/usr/java/jdk1.8/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/java/jdk1.8/jre/lib/resources.jar:/usr/java/jdk1.8/jre/lib/rt.jar:/usr/java/jdk1.8/jre/lib/sunrsasign.jar:/usr/java/jdk1.8/jre/lib/jsse.jar:/usr/java/jdk1.8/jre/lib/jce.jar:/usr/java/jdk1.8/jre/lib/charsets.jar:/usr/java/jdk1.8/jre/lib/jfr.jar:/usr/java/jdk1.8/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/ly/idea/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.example.snowflake.SnowflakeIDGenImplTest" name="testGetId" time="10.804">
+    <error message="Snowflake Id Gen is not init ok" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Snowflake Id Gen is not init ok
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:125)
+	at com.example.snowflake.SnowflakeIDGenImpl.&lt;init&gt;(SnowflakeIDGenImpl.java:55)
+	at com.example.snowflake.SnowflakeIDGenImpl.&lt;init&gt;(SnowflakeIDGenImpl.java:36)
+	at com.example.snowflake.SnowflakeIDGenImplTest.testGetId(SnowflakeIDGenImplTest.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>08:52:44.561 [main] INFO  com.example.snowflake.SnowflakeIDGenImpl - twepoch:1288834974657 ,ip:192.168.2.199 ,zkAddress:127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 port:8080
+08:52:44.587 [main] WARN  org.apache.curator.CuratorZookeeperClient - session timeout [6000] is less than connection timeout [10000]
+08:52:44.599 [main] INFO  org.apache.curator.framework.imps.CuratorFrameworkImpl - Starting
+08:52:44.604 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.5.5-390fe37ea45dee01bf87dc1c042b5e3dcce88653, built on 05/03/2019 12:07 GMT
+08:52:44.605 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:host.name=ly-TravelMate-X40-51-MG
+08:52:44.605 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_231
+08:52:44.605 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+08:52:44.605 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.home=/usr/java/jdk1.8/jre
+08:52:44.605 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=/home/ly/gitRepository/leaf-dubbo/leaf-core/target/test-classes:/home/ly/gitRepository/leaf-dubbo/leaf-core/target/classes:/home/ly/.m2/repository/org/mybatis/mybatis/3.3.0/mybatis-3.3.0.jar:/home/ly/.m2/repository/org/perf4j/perf4j/0.9.16/perf4j-0.9.16.jar:/home/ly/.m2/repository/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar:/home/ly/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/home/ly/.m2/repository/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.jar:/home/ly/.m2/repository/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.jar:/home/ly/.m2/repository/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar:/home/ly/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar:/home/ly/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/home/ly/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/home/ly/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/home/ly/.m2/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE.jar:/home/ly/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/ly/.m2/repository/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE.jar:/home/ly/.m2/repository/org/springframework/spring-jdbc/4.3.18.RELEASE/spring-jdbc-4.3.18.RELEASE.jar:/home/ly/.m2/repository/org/springframework/spring-tx/4.3.18.RELEASE/spring-tx-4.3.18.RELEASE.jar:/home/ly/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE.jar:/home/ly/.m2/repository/org/springframework/spring-aop/4.3.18.RELEASE/spring-aop-4.3.18.RELEASE.jar:/home/ly/.m2/repository/org/springframework/spring-expression/4.3.18.RELEASE/spring-expression-4.3.18.RELEASE.jar:/home/ly/.m2/repository/org/springframework/spring-test/4.3.18.RELEASE/spring-test-4.3.18.RELEASE.jar:/home/ly/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.7/log4j-slf4j-impl-2.7.jar:/home/ly/.m2/repository/org/apache/logging/log4j/log4j-api/2.7/log4j-api-2.7.jar:/home/ly/.m2/repository/org/apache/logging/log4j/log4j-core/2.7/log4j-core-2.7.jar:/home/ly/.m2/repository/com/alibaba/druid/1.0.18/druid-1.0.18.jar:/usr/java/jdk1.8/jre/../lib/jconsole.jar:/usr/java/jdk1.8/jre/../lib/tools.jar:/home/ly/.m2/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar:/home/ly/.m2/repository/org/mybatis/mybatis-spring/1.2.5/mybatis-spring-1.2.5.jar:/home/ly/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/ly/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/ly/.m2/repository/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar:/home/ly/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03.jar:/home/ly/.m2/repository/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar:/home/ly/.m2/repository/org/jboss/netty/netty/3.2.5.Final/netty-3.2.5.Final.jar:/home/ly/.m2/repository/org/apache/zookeeper/zookeeper/3.5.5/zookeeper-3.5.5.jar:/home/ly/.m2/repository/org/apache/zookeeper/zookeeper-jute/3.5.5/zookeeper-jute-3.5.5.jar:/home/ly/.m2/repository/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar:/home/ly/.m2/repository/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar:/home/ly/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/home/ly/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/ly/.m2/repository/com/101tec/zkclient/0.10/zkclient-0.10.jar:/home/ly/.m2/repository/org/example/leaf-api/1.0-SNAPSHOT/leaf-api-1.0-SNAPSHOT.jar:
+08:52:44.605 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+08:52:44.605 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/tmp
+08:52:44.605 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=&lt;NA&gt;
+08:52:44.605 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.name=Linux
+08:52:44.606 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+08:52:44.606 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.version=4.15.0-72-generic
+08:52:44.606 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.name=ly
+08:52:44.606 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.home=/home/ly
+08:52:44.606 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/home/ly/gitRepository/leaf-dubbo/leaf-core
+08:52:44.606 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.memory.free=205MB
+08:52:44.606 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.memory.max=3538MB
+08:52:44.606 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.memory.total=240MB
+08:52:44.608 [main] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 sessionTimeout=6000 watcher=org.apache.curator.ConnectionState@6b58b9e9
+08:52:44.612 [main] INFO  org.apache.zookeeper.common.X509Util - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+08:52:44.616 [main] INFO  org.apache.zookeeper.ClientCnxnSocket - jute.maxbuffer value is 4194304 Bytes
+08:52:44.622 [main] INFO  org.apache.zookeeper.ClientCnxn - zookeeper.request.timeout value is 0. feature enabled=
+08:52:44.626 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+08:52:44.662 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2181: 拒绝连接
+08:52:44.763 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2182. Will not attempt to authenticate using SASL (unknown error)
+08:52:44.764 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2182: 拒绝连接
+08:52:44.865 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2183. Will not attempt to authenticate using SASL (unknown error)
+08:52:44.866 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2183: 拒绝连接
+08:52:45.967 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+08:52:45.968 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2181: 拒绝连接
+08:52:46.070 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2182. Will not attempt to authenticate using SASL (unknown error)
+08:52:46.071 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2182: 拒绝连接
+08:52:46.172 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2183. Will not attempt to authenticate using SASL (unknown error)
+08:52:46.173 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2183: 拒绝连接
+08:52:47.275 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+08:52:47.275 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2181: 拒绝连接
+08:52:47.376 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2182. Will not attempt to authenticate using SASL (unknown error)
+08:52:47.377 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2182: 拒绝连接
+08:52:47.479 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2183. Will not attempt to authenticate using SASL (unknown error)
+08:52:47.480 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2183: 拒绝连接
+08:52:48.581 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+08:52:48.582 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2181: 拒绝连接
+08:52:48.683 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2182. Will not attempt to authenticate using SASL (unknown error)
+08:52:48.684 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2182: 拒绝连接
+08:52:48.785 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2183. Will not attempt to authenticate using SASL (unknown error)
+08:52:48.786 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2183: 拒绝连接
+08:52:49.888 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+08:52:49.889 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2181: 拒绝连接
+08:52:49.995 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2182. Will not attempt to authenticate using SASL (unknown error)
+08:52:49.996 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2182: 拒绝连接
+08:52:50.097 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2183. Will not attempt to authenticate using SASL (unknown error)
+08:52:50.098 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2183: 拒绝连接
+08:52:51.199 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+08:52:51.201 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2181: 拒绝连接
+08:52:51.302 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2182. Will not attempt to authenticate using SASL (unknown error)
+08:52:51.304 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2182: 拒绝连接
+08:52:51.405 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2183. Will not attempt to authenticate using SASL (unknown error)
+08:52:51.405 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2183: 拒绝连接
+08:52:52.507 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+08:52:52.508 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2181: 拒绝连接
+08:52:52.609 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2182. Will not attempt to authenticate using SASL (unknown error)
+08:52:52.611 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2182: 拒绝连接
+08:52:52.712 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2183. Will not attempt to authenticate using SASL (unknown error)
+08:52:52.714 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2183: 拒绝连接
+08:52:53.816 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+08:52:53.817 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2181: 拒绝连接
+08:52:53.919 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2182. Will not attempt to authenticate using SASL (unknown error)
+08:52:53.920 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2182: 拒绝连接
+08:52:54.021 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2183. Will not attempt to authenticate using SASL (unknown error)
+08:52:54.023 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2183: 拒绝连接
+08:52:54.638 [main] WARN  org.apache.curator.ConnectionState - Connection attempt unsuccessful after 10037 (greater than max timeout of 10000). Resetting connection and trying again with a new connection.
+08:52:55.125 [main-SendThread(127.0.0.1:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+08:52:55.233 [main] INFO  org.apache.zookeeper.ZooKeeper - Session: 0x0 closed
+08:52:55.233 [main] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183 sessionTimeout=6000 watcher=org.apache.curator.ConnectionState@6b58b9e9
+08:52:55.233 [main-EventThread] INFO  org.apache.zookeeper.ClientCnxn - EventThread shut down for session: 0x0
+08:52:55.234 [main] INFO  org.apache.zookeeper.ClientCnxnSocket - jute.maxbuffer value is 4194304 Bytes
+08:52:55.234 [main] INFO  org.apache.zookeeper.ClientCnxn - zookeeper.request.timeout value is 0. feature enabled=
+08:52:55.234 [main-SendThread(127.0.0.1:2183)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2183. Will not attempt to authenticate using SASL (unknown error)
+08:52:55.235 [main-SendThread(127.0.0.1:2183)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2183: 拒绝连接
+08:52:55.336 [main-SendThread(127.0.0.1:2183)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2182. Will not attempt to authenticate using SASL (unknown error)
+08:52:55.337 [main-SendThread(127.0.0.1:2183)] INFO  org.apache.zookeeper.ClientCnxn - Socket error occurred: localhost/127.0.0.1:2182: 拒绝连接
+08:52:55.352 [main] ERROR com.example.snowflake.SnowflakeZookeeperHolder - Start node ERROR {}
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /snowflake/server/forever
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102) ~[zookeeper-3.5.5.jar:3.5.5]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:54) ~[zookeeper-3.5.5.jar:3.5.5]
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:2021) ~[zookeeper-3.5.5.jar:3.5.5]
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:172) ~[curator-framework-2.6.0.jar:?]
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:161) ~[curator-framework-2.6.0.jar:?]
+	at org.apache.curator.RetryLoop.callWithRetry(RetryLoop.java:107) ~[curator-client-2.6.0.jar:?]
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:157) ~[curator-framework-2.6.0.jar:?]
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:148) ~[curator-framework-2.6.0.jar:?]
+	at org.apache.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36) ~[curator-framework-2.6.0.jar:?]
+	at com.example.snowflake.SnowflakeZookeeperHolder.init(SnowflakeZookeeperHolder.java:53) [classes/:?]
+	at com.example.snowflake.SnowflakeIDGenImpl.&lt;init&gt;(SnowflakeIDGenImpl.java:50) [classes/:?]
+	at com.example.snowflake.SnowflakeIDGenImpl.&lt;init&gt;(SnowflakeIDGenImpl.java:36) [classes/:?]
+	at com.example.snowflake.SnowflakeIDGenImplTest.testGetId(SnowflakeIDGenImplTest.java:15) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_231]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_231]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_231]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_231]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) [surefire-junit4-2.12.4.jar:2.12.4]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_231]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_231]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_231]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_231]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) [surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) [surefire-booter-2.12.4.jar:2.12.4]
+08:52:55.366 [main] ERROR com.example.snowflake.SnowflakeZookeeperHolder - Read file error 
+java.io.FileNotFoundException: /tmp/server/leafconf/8080/workerID.properties (没有那个文件或目录)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_231]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_231]
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138) ~[?:1.8.0_231]
+	at com.example.snowflake.SnowflakeZookeeperHolder.init(SnowflakeZookeeperHolder.java:99) [classes/:?]
+	at com.example.snowflake.SnowflakeIDGenImpl.&lt;init&gt;(SnowflakeIDGenImpl.java:50) [classes/:?]
+	at com.example.snowflake.SnowflakeIDGenImpl.&lt;init&gt;(SnowflakeIDGenImpl.java:36) [classes/:?]
+	at com.example.snowflake.SnowflakeIDGenImplTest.testGetId(SnowflakeIDGenImplTest.java:15) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_231]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_231]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_231]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_231]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141) [surefire-junit4-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112) [surefire-junit4-2.12.4.jar:2.12.4]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_231]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_231]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_231]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_231]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189) [surefire-api-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115) [surefire-booter-2.12.4.jar:2.12.4]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75) [surefire-booter-2.12.4.jar:2.12.4]
+</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,10 @@
+/home/ly/gitRepository/leaf-dubbo/leaf-api/src/main/java/com/example/common/PropertyFactory.java
+/home/ly/gitRepository/leaf-dubbo/leaf-api/src/main/java/com/example/common/Status.java
+/home/ly/gitRepository/leaf-dubbo/leaf-api/src/main/java/com/example/common/Utils.java
+/home/ly/gitRepository/leaf-dubbo/leaf-api/src/main/java/com/example/GetIdServiceRPC.java
+/home/ly/gitRepository/leaf-dubbo/leaf-api/src/main/java/com/example/common/CheckVO.java
+/home/ly/gitRepository/leaf-dubbo/leaf-api/src/main/java/com/example/common/SnowflakeZeroIDGen.java
+/home/ly/gitRepository/leaf-dubbo/leaf-api/src/main/java/com/example/common/SegmentZeroIDGen.java
+/home/ly/gitRepository/leaf-dubbo/leaf-api/src/main/java/com/example/SegmentIDGen.java
+/home/ly/gitRepository/leaf-dubbo/leaf-api/src/main/java/com/example/SnowflakeIDGen.java
+/home/ly/gitRepository/leaf-dubbo/leaf-api/src/main/java/com/example/common/Result.java

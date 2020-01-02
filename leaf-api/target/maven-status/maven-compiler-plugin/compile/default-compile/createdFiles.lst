@@ -1,0 +1,7 @@
+com/example/SnowflakeIDGen.class
+com/example/common/CheckVO.class
+com/example/common/PropertyFactory.class
+com/example/SegmentIDGen.class
+com/example/common/Result.class
+com/example/common/Utils.class
+com/example/common/Status.class
