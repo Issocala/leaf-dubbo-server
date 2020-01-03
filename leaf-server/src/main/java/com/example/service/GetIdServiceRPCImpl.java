@@ -6,14 +6,19 @@ import com.example.common.Status;
 import com.example.exception.InitException;
 import com.example.exception.LeafServerException;
 import com.example.exception.NoKeyException;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.sql.SQLException;
 
 public class GetIdServiceRPCImpl implements GetIdServiceRPC {
+    @Autowired
+    SegmentService segmentService;
 
-    SegmentService segmentService = new SegmentService();
 
-    SnowflakeService snowflakeService = new SnowflakeService();
+    @Autowired
+    SnowflakeService snowflakeService;
+
+
 
     public GetIdServiceRPCImpl() throws InitException, SQLException {
     }

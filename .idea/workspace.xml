@@ -8,6 +8,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-api/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-api/src/main/java/com/example/GetIdServiceRPC.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-api/src/main/java/com/example/SegmentIDGen.java" afterDir="false" />
@@ -21,8 +22,15 @@
       <change afterPath="$PROJECT_DIR$/leaf-api/src/main/java/com/example/common/Utils.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-api/src/test/java/com/example/AppTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-api/target/classes/com/example/GetIdServiceRPC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/target/classes/com/example/SegmentIDGen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/target/classes/com/example/SnowflakeIDGen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/target/classes/com/example/common/CheckVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/target/classes/com/example/common/PropertyFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/target/classes/com/example/common/Result.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-api/target/classes/com/example/common/SegmentZeroIDGen.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-api/target/classes/com/example/common/SnowflakeZeroIDGen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/target/classes/com/example/common/Status.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-api/target/classes/com/example/common/Utils.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-core/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-core/src/main/java/com/example/segment/SegmentIDGenImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-core/src/main/java/com/example/segment/dao/IDAllocDao.java" afterDir="false" />
@@ -72,26 +80,38 @@
       <change afterPath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/service/GetIdServiceRPCImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/service/SegmentService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/service/SnowflakeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leaf-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leaf-server/src/main/resources/dubbo-server.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leaf-server/src/main/resources/leaf.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/src/main/resources/applicationContext.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-server/src/main/resources/log4j.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-server/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/META-INF/spring/dubbo-server.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/Constants.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/exception/InitException.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/exception/LeafServerException.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/exception/NoKeyException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/service/GetIdServiceRPCImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/service/SegmentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/service/SnowflakeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/dubbo-server.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/leaf.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-server/target/classes/log4j.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/leaf-server/target/test-classes/org/example/AppTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leaf-dubbo-client/src/main/java/com/example/StringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leaf-dubbo-client/src/main/java/com/example/StringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leaf-dubbo-client/src/main/resources/dubbo-client.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leaf-dubbo-client/src/main/resources/dubbo-client.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leaf-dubbo-client/target/classes/com/example/StringApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leaf-dubbo-client/target/classes/com/example/StringApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaf-server/leaf-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leaf-server/leaf-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaf-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leaf-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/service/GetIdServiceRPCImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/service/GetIdServiceRPCImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/service/SegmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/service/SegmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/service/SnowflakeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/leaf-server/src/main/java/com/example/service/SnowflakeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaf-server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaf-server/src/main/resources/dubbo-server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leaf-server/src/main/resources/META-INF/spring/dubbo-server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaf-server/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaf-server/target/classes/com/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaf-server/target/classes/com/example/service/GetIdServiceRPCImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/service/GetIdServiceRPCImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaf-server/target/classes/com/example/service/SegmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/service/SegmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaf-server/target/classes/com/example/service/SnowflakeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/leaf-server/target/classes/com/example/service/SnowflakeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaf-server/target/classes/dubbo-server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaf-server/target/classes/leaf.properties" beforeDir="false" afterPath="$PROJECT_DIR$/leaf-server/target/classes/leaf.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +142,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -177,23 +197,23 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/leaf-server/src/main/resources" />
-      <recent name="$PROJECT_DIR$/leaf-server/src/main/resources/META-INF.spring" />
-      <recent name="$PROJECT_DIR$/leaf-server/src/main" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/leaf-core" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example" />
-      <recent name="com.example.common" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/leaf-server/src/main/resources" />
       <recent name="$PROJECT_DIR$/leaf-server/src/main/java/resources" />
       <recent name="$PROJECT_DIR$/leaf-server/src/main/java" />
       <recent name="$PROJECT_DIR$/leaf-server/src/main/java/com/example" />
       <recent name="$PROJECT_DIR$/leaf-server/src/main/java/com/example/service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example" />
+      <recent name="com.example.common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leaf-server/src/main/resources/META-INF/spring" />
+      <recent name="$PROJECT_DIR$/leaf-server/src/main/resources/META-INF.spring" />
+      <recent name="$PROJECT_DIR$/leaf-server/src/main/resources" />
+      <recent name="$PROJECT_DIR$/leaf-server/src/main" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -259,7 +279,8 @@
       <workItem from="1577765091719" duration="613000" />
       <workItem from="1577770687473" duration="2503000" />
       <workItem from="1577926126424" duration="9964000" />
-      <workItem from="1577944510340" duration="4401000" />
+      <workItem from="1577944510340" duration="5063000" />
+      <workItem from="1578016127880" duration="5051000" />
     </task>
     <task id="LOCAL-00001" summary="美团leaf　RPC模式开发">
       <created>1577948803834</created>
@@ -280,6 +301,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="美团leaf　RPC模式开发" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="555" y="200" width="800" height="677" key="#Inspections" timestamp="1578018267333">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="200" width="800" height="677" key="#Inspections/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1578018267333" />
     <state x="555" y="200" width="800" height="677" key="#Project_Structure" timestamp="1577946649117">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -305,38 +330,38 @@
     </state>
     <state x="738" y="245" width="744" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577943974522" />
     <state x="2658" y="224" width="504" height="656" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1577695812347" />
-    <state width="933" height="274" key="GridCell.Tab.0.bottom" timestamp="1577949064730">
+    <state width="1866" height="337" key="GridCell.Tab.0.bottom" timestamp="1578021780006">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="933" height="274" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577949064730" />
-    <state width="933" height="274" key="GridCell.Tab.0.center" timestamp="1577949064729">
+    <state width="1866" height="337" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1578021780006" />
+    <state width="1866" height="337" key="GridCell.Tab.0.center" timestamp="1578021780006">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="933" height="274" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577949064729" />
-    <state width="933" height="274" key="GridCell.Tab.0.left" timestamp="1577949064729">
+    <state width="1866" height="337" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1578021780006" />
+    <state width="1866" height="337" key="GridCell.Tab.0.left" timestamp="1578021780006">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="933" height="274" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577949064729" />
-    <state width="933" height="274" key="GridCell.Tab.0.right" timestamp="1577949064730">
+    <state width="1866" height="337" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1578021780006" />
+    <state width="1866" height="337" key="GridCell.Tab.0.right" timestamp="1578021780006">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="933" height="274" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577949064730" />
-    <state width="933" height="274" key="GridCell.Tab.1.bottom" timestamp="1577949064732">
+    <state width="1866" height="337" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1578021780006" />
+    <state width="1866" height="274" key="GridCell.Tab.1.bottom" timestamp="1578018461603">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="933" height="274" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577949064732" />
-    <state width="933" height="274" key="GridCell.Tab.1.center" timestamp="1577949064731">
+    <state width="1866" height="274" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1578018461603" />
+    <state width="1866" height="274" key="GridCell.Tab.1.center" timestamp="1578018461602">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="933" height="274" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577949064731" />
-    <state width="933" height="274" key="GridCell.Tab.1.left" timestamp="1577949064731">
+    <state width="1866" height="274" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1578018461602" />
+    <state width="1866" height="274" key="GridCell.Tab.1.left" timestamp="1578018461602">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="933" height="274" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577949064731" />
-    <state width="933" height="274" key="GridCell.Tab.1.right" timestamp="1577949064731">
+    <state width="1866" height="274" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1578018461602" />
+    <state width="1866" height="274" key="GridCell.Tab.1.right" timestamp="1578018461602">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="933" height="274" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577949064731" />
+    <state width="1866" height="274" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1578018461602" />
     <state x="493" y="197" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1577702762201">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -358,10 +383,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="611" y="464" width="678" height="224" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577943979630" />
-    <state x="726" y="455" width="457" height="168" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577949002911">
+    <state x="726" y="455" width="467" height="168" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578018920214">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="726" y="455" width="457" height="168" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1577949002911" />
+    <state x="726" y="455" width="467" height="168" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1578018920214" />
     <state x="237" y="266" width="1436" height="611" key="new project wizard" timestamp="1577934323249">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

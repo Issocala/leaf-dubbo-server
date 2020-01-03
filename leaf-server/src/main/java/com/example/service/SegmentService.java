@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 
 import java.sql.SQLException;
 import java.util.Properties;
-
+@Service("segmentService")
 public class SegmentService {
     private Logger logger = LoggerFactory.getLogger(SegmentService.class);
 
