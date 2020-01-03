@@ -5,7 +5,6 @@ com/example/snowflake/exception/ClockGoBackException.class
 com/example/snowflake/SnowflakeIDGenImpl.class
 com/example/snowflake/SnowflakeZookeeperHolder$Endpoint.class
 com/example/segment/SegmentIDGenImpl$1.class
-SpringApplication.class
 com/example/segment/model/SegmentBuffer.class
 com/example/segment/SegmentIDGenImpl$UpdateThreadFactory.class
 com/example/segment/model/Segment.class

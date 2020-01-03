@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/leaf-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/leaf-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leaf-core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/leaf-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/leaf-server/src/main/resources" charset="UTF-8" />
   </component>

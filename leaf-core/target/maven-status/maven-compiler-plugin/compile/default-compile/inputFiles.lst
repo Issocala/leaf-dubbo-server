@@ -1,13 +1,12 @@
+/home/ly/gitRepository/leaf-dubbo/leaf-core/src/main/java/com/example/segment/dao/impl/IDAllocDaoImpl.java
 /home/ly/gitRepository/leaf-dubbo/leaf-core/src/main/java/com/example/snowflake/SnowflakeZookeeperHolder.java
+/home/ly/gitRepository/leaf-dubbo/leaf-core/src/main/java/com/example/segment/model/LeafAlloc.java
 /home/ly/gitRepository/leaf-dubbo/leaf-core/src/main/java/com/example/snowflake/exception/ClockGoBackException.java
+/home/ly/gitRepository/leaf-dubbo/leaf-core/src/main/java/com/example/snowflake/SnowflakeIDGenImpl.java
 /home/ly/gitRepository/leaf-dubbo/leaf-core/src/main/java/com/example/snowflake/exception/CheckLastTimeException.java
 /home/ly/gitRepository/leaf-dubbo/leaf-core/src/main/java/com/example/snowflake/exception/CheckOtherNodeException.java
 /home/ly/gitRepository/leaf-dubbo/leaf-core/src/main/java/com/example/segment/dao/IDAllocDao.java
 /home/ly/gitRepository/leaf-dubbo/leaf-core/src/main/java/com/example/segment/model/SegmentBuffer.java
-/home/ly/gitRepository/leaf-dubbo/leaf-core/src/main/java/SpringApplication.java
-/home/ly/gitRepository/leaf-dubbo/leaf-core/src/main/java/com/example/segment/model/Segment.java
-/home/ly/gitRepository/leaf-dubbo/leaf-core/src/main/java/com/example/segment/dao/impl/IDAllocDaoImpl.java
-/home/ly/gitRepository/leaf-dubbo/leaf-core/src/main/java/com/example/segment/model/LeafAlloc.java
-/home/ly/gitRepository/leaf-dubbo/leaf-core/src/main/java/com/example/snowflake/SnowflakeIDGenImpl.java
 /home/ly/gitRepository/leaf-dubbo/leaf-core/src/main/java/com/example/segment/SegmentIDGenImpl.java
+/home/ly/gitRepository/leaf-dubbo/leaf-core/src/main/java/com/example/segment/model/Segment.java
 /home/ly/gitRepository/leaf-dubbo/leaf-core/src/main/java/com/example/segment/dao/IDAllocMapper.java

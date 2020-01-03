@@ -1,5 +1,8 @@
 com/example/SnowflakeIDGen.class
+com/example/common/SegmentZeroIDGen.class
+com/example/common/SnowflakeZeroIDGen.class
 com/example/common/CheckVO.class
+com/example/GetIdServiceRPC.class
 com/example/common/PropertyFactory.class
 com/example/SegmentIDGen.class
 com/example/common/Result.class
